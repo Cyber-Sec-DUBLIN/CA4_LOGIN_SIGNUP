@@ -69,12 +69,8 @@ $_SESSION['Active'] = false;
 
  }
 
- function LOGOUT() {
-    require_once 'session/session.php';
-$session = new session();
-$session->forgetSession();
- }
 
+//logout function removed and put as its own seperate file as I can't figure out how to work with the form submit
 
 
 
